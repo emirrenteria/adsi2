@@ -1,0 +1,27 @@
+./../heroku/bin/heroku create emir-renteria --buildpack heroku/python
+
+
+https://emir-renteria.herokuapp.com/ | https://git.heroku.com/emir-renteria.git
+
+
+git init
+
+./../heroku/bin/heroku git:remote -a emir-renteria
+
+creamos las carpetas
+
+
+git status
+git add .
+git config --global user.email "emir11r@hotmail.com"
+git config --global user.name "Your Name"
+
+git commit -m "primera version"
+
+git log
+
+git remote add origin https://git.heroku.com/emir-renteria.git
+
+git push --set-upstream origin master
+
+Emir-23568971
